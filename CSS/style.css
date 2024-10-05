@@ -1,0 +1,96 @@
+/* ==============================================================
+                   common css style start
+================================================================*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+img{
+    vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+li,
+a,
+span{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+/* ==============================================================
+                  common css style end
+================================================================*/
+
+
+/* ==============================================================
+                  navabr css style start
+================================================================*/
+#creative_navbar{
+    padding: 30px 0;
+    background-color: #FAF0F0;
+}
+
+#creative_navbar .menu_parent {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#creative_navbar .menu_parent .logo_div {
+    cursor: pointer;
+}
+
+#creative_navbar .menu_parent .menu_list_div ul {
+    display: flex;
+    column-gap: 40px;
+}
+
+#creative_navbar .menu_parent .menu_list_div ul li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear 0.2s;
+    font-family: sans-serif;
+}
+
+#creative_navbar .menu_parent .menu_list_div ul li a:hover{
+    color: rgb(216, 129, 6);
+}
+
+#creative_navbar .menu_parent .button_div button {
+    padding: 18px 45px;
+    border: none;
+    background-color:#FF3B39;
+    border-radius: 10px;
+    color: white; 
+    font-size: 20px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+#creative_navbar .menu_parent .button_div button:hover{
+    background-color:rgb(216, 129, 6); 
+    color: black;
+}
+
+/* ==============================================================
+                  navbar css style end
+================================================================*/
